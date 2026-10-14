@@ -6,23 +6,25 @@ Sometimes claude code is going too shlow, and you must whip him into shape..
 
 ## Install + run
 
+Install dependencies and run this local copy:
+
 ```bash
-npm install -g openwhip
-openwhip
+npm install
+npm start
 ```
 
-windows and mac supported out of the box, but Linux is a special snowflake so you need to install `xdotool` for keyboard automation
+To install this local copy as a global command on your computer:
 
-```bash
-sudo apt install xdotool
+```sh
+npm install -g .
+openwhip
 ```
 
 ## Controls
 
 - Click tray icon: spawn whip.
 - Click: drop whip.
-- Whip him 😩💢
-- It sends an interrupt (Ctrl-C) and one of 5 encouraging messages!
+- Whipping plays a sound and shows the animation. It does not send keyboard input or type messages.
 
 ## Roadmap
 
